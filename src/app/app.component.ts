@@ -7,6 +7,7 @@ import { PrimeIcons } from 'primeng/api';
 import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
 import { ButtonSampleComponent } from "./samples/button-sample/button-sample.component";
+import { ToastSampleComponent } from './samples/toast-sample/toast-sample.component';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { ButtonSampleComponent } from "./samples/button-sample/button-sample.com
     // BrowserAnimationsModule,
     ButtonModule,
     SidebarModule,
-    ButtonSampleComponent
+    ButtonSampleComponent,
+    ToastSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
