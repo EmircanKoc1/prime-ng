@@ -8,6 +8,7 @@ import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
 import { ButtonSampleComponent } from "./samples/button-sample/button-sample.component";
 import { ToastSampleComponent } from './samples/toast-sample/toast-sample.component';
+import { AccordionSampleComponent } from "./samples/accordion-sample/accordion-sample.component";
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { ToastSampleComponent } from './samples/toast-sample/toast-sample.compon
     ButtonModule,
     SidebarModule,
     ButtonSampleComponent,
-    ToastSampleComponent
+    ToastSampleComponent,
+    AccordionSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

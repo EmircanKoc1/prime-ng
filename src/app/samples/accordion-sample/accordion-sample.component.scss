@@ -1,0 +1,14 @@
+:host ::ng-deep {
+
+    .a-container {
+        .p-accordion {
+            background-color: red;
+            width: 40%;
+        }
+
+
+        .p-accordion-header-text {
+            color: red;
+        }
+    }
+}
