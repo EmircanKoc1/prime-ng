@@ -1,3 +1,24 @@
 // @import "primeng/resources/themes/lara-light-blue/theme.css";
 // @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
+
+// .color-red {
+//     background-color: red;
+//     color: black;
+// }
+// .p-button-label{
+//     background-color: green;
+//     color: black;
+// }
+// .p-button-icon{
+//     color: red;
+// }
+
+.color-red{
+    .p-button{
+        background-color: green;
+        width: 10%;
+        height: 20%;
+    }
+}
+
