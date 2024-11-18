@@ -9,6 +9,8 @@ import { SidebarModule } from 'primeng/sidebar';
 import { ButtonSampleComponent } from "./samples/button-sample/button-sample.component";
 import { ToastSampleComponent } from './samples/toast-sample/toast-sample.component';
 import { AccordionSampleComponent } from "./samples/accordion-sample/accordion-sample.component";
+import { CardSampleComponent } from "./samples/card-sample/card-sample.component";
+import { ImageSampleComponent } from "./samples/image-sample/image-sample.component";
 
 @Component({
   selector: 'app-root',
@@ -21,7 +23,9 @@ import { AccordionSampleComponent } from "./samples/accordion-sample/accordion-s
     SidebarModule,
     ButtonSampleComponent,
     ToastSampleComponent,
-    AccordionSampleComponent
+    AccordionSampleComponent,
+    CardSampleComponent,
+    ImageSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

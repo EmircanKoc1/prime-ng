@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { Message, MessageService } from 'primeng/api';
+import {  MessageService } from 'primeng/api';
 import { ButtonModule } from 'primeng/button';
 import { RippleModule } from 'primeng/ripple';
 import { ToastModule } from 'primeng/toast';
@@ -22,7 +22,7 @@ export class ToastSampleComponent {
 
 
   showMessage() {
-    const message: Message = {
+    const message: any = {
       severity: "success",
       summary: "Success",
       detail: "Message content"

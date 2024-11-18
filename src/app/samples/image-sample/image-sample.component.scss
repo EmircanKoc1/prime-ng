@@ -1,0 +1,23 @@
+$full-width : 100%;
+$full-height : 100%;
+
+@mixin full-screen() {
+
+    width: $full-width;
+    height: $full-height;
+}
+
+
+// :host ::ng-deep {
+
+//     .container {
+
+//         .p-image {
+//             @include full-screen();
+//         }
+
+//         .p-image-preview-container {
+//             @include full-screen();
+//         }
+//     }
+// }

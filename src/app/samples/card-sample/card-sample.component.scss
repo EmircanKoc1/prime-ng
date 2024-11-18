@@ -1,0 +1,15 @@
+:host ::ng-deep {
+    .simple-card-container {
+        .p-card {
+            width: 500px;
+            height: 500px;
+        }
+
+        .p-card-title {
+            color: red;
+        }
+        .pard-content{
+            font-size: xx-large;
+        }
+    }
+}
