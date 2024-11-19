@@ -11,6 +11,7 @@ import { ToastSampleComponent } from './samples/toast-sample/toast-sample.compon
 import { AccordionSampleComponent } from "./samples/accordion-sample/accordion-sample.component";
 import { CardSampleComponent } from "./samples/card-sample/card-sample.component";
 import { ImageSampleComponent } from "./samples/image-sample/image-sample.component";
+import { TabmenuSampleComponent } from "./samples/tabmenu-sample/tabmenu-sample.component";
 
 @Component({
   selector: 'app-root',
@@ -25,7 +26,8 @@ import { ImageSampleComponent } from "./samples/image-sample/image-sample.compon
     ToastSampleComponent,
     AccordionSampleComponent,
     CardSampleComponent,
-    ImageSampleComponent
+    ImageSampleComponent,
+    TabmenuSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
