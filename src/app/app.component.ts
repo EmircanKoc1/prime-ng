@@ -12,6 +12,7 @@ import { AccordionSampleComponent } from "./samples/accordion-sample/accordion-s
 import { CardSampleComponent } from "./samples/card-sample/card-sample.component";
 import { ImageSampleComponent } from "./samples/image-sample/image-sample.component";
 import { TabmenuSampleComponent } from "./samples/tabmenu-sample/tabmenu-sample.component";
+import { SliderSampleComponent } from "./samples/slider-sample/slider-sample.component";
 
 @Component({
   selector: 'app-root',
@@ -27,7 +28,8 @@ import { TabmenuSampleComponent } from "./samples/tabmenu-sample/tabmenu-sample.
     AccordionSampleComponent,
     CardSampleComponent,
     ImageSampleComponent,
-    TabmenuSampleComponent
+    TabmenuSampleComponent,
+    SliderSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
