@@ -13,6 +13,7 @@ import { CardSampleComponent } from "./samples/card-sample/card-sample.component
 import { ImageSampleComponent } from "./samples/image-sample/image-sample.component";
 import { TabmenuSampleComponent } from "./samples/tabmenu-sample/tabmenu-sample.component";
 import { SliderSampleComponent } from "./samples/slider-sample/slider-sample.component";
+import { SidebarSampleComponent } from "./samples/sidebar-sample/sidebar-sample.component";
 
 @Component({
   selector: 'app-root',
@@ -29,7 +30,8 @@ import { SliderSampleComponent } from "./samples/slider-sample/slider-sample.com
     CardSampleComponent,
     ImageSampleComponent,
     TabmenuSampleComponent,
-    SliderSampleComponent
+    SliderSampleComponent,
+    SidebarSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
