@@ -14,6 +14,7 @@ import { ImageSampleComponent } from "./samples/image-sample/image-sample.compon
 import { TabmenuSampleComponent } from "./samples/tabmenu-sample/tabmenu-sample.component";
 import { SliderSampleComponent } from "./samples/slider-sample/slider-sample.component";
 import { SidebarSampleComponent } from "./samples/sidebar-sample/sidebar-sample.component";
+import { ChartSampleComponent } from "./samples/chart-sample/chart-sample.component";
 
 @Component({
   selector: 'app-root',
@@ -31,7 +32,8 @@ import { SidebarSampleComponent } from "./samples/sidebar-sample/sidebar-sample.
     ImageSampleComponent,
     TabmenuSampleComponent,
     SliderSampleComponent,
-    SidebarSampleComponent
+    SidebarSampleComponent,
+    ChartSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
