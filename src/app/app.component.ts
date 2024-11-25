@@ -16,6 +16,7 @@ import { SliderSampleComponent } from "./samples/slider-sample/slider-sample.com
 import { SidebarSampleComponent } from "./samples/sidebar-sample/sidebar-sample.component";
 import { ChartSampleComponent } from "./samples/chart-sample/chart-sample.component";
 import { MeterSampleComponent } from "./samples/meter-sample/meter-sample.component";
+import { AvatarSampleComponent } from './samples/avatar-sample/avatar-sample.component';
 
 @Component({
   selector: 'app-root',
@@ -35,7 +36,8 @@ import { MeterSampleComponent } from "./samples/meter-sample/meter-sample.compon
     SliderSampleComponent,
     SidebarSampleComponent,
     ChartSampleComponent,
-    MeterSampleComponent
+    MeterSampleComponent,
+    AvatarSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
