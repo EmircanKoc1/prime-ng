@@ -17,6 +17,7 @@ import { SidebarSampleComponent } from "./samples/sidebar-sample/sidebar-sample.
 import { ChartSampleComponent } from "./samples/chart-sample/chart-sample.component";
 import { MeterSampleComponent } from "./samples/meter-sample/meter-sample.component";
 import { AvatarSampleComponent } from './samples/avatar-sample/avatar-sample.component';
+import { SkeletonSampleComponent } from './samples/skeleton-sample/skeleton-sample.component';
 
 @Component({
   selector: 'app-root',
@@ -37,7 +38,8 @@ import { AvatarSampleComponent } from './samples/avatar-sample/avatar-sample.com
     SidebarSampleComponent,
     ChartSampleComponent,
     MeterSampleComponent,
-    AvatarSampleComponent
+    AvatarSampleComponent,
+    SkeletonSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
