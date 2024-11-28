@@ -18,7 +18,7 @@ import { ChartSampleComponent } from "./samples/chart-sample/chart-sample.compon
 import { MeterSampleComponent } from "./samples/meter-sample/meter-sample.component";
 import { AvatarSampleComponent } from './samples/avatar-sample/avatar-sample.component';
 import { SkeletonSampleComponent } from './samples/skeleton-sample/skeleton-sample.component';
-
+import { TimelineSampleComponent } from './samples/timeline-sample/timeline-sample.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -39,7 +39,8 @@ import { SkeletonSampleComponent } from './samples/skeleton-sample/skeleton-samp
     ChartSampleComponent,
     MeterSampleComponent,
     AvatarSampleComponent,
-    SkeletonSampleComponent
+    SkeletonSampleComponent,
+    TimelineSampleComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
